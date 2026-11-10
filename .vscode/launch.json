@@ -3,9 +3,19 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumCalculator",
+      "request": "launch",
+      "mainClass": "SumCalculator",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
       "name": "Run JavaFX Lab (any class name)",
       "request": "launch",
-      "mainClass": "LabLauncher"
+      "mainClass": "SumCalculator",
+      "vmArgs": "--module-path \"C:\\Users\\trumper.charles\\Downloads\\openjfx-27.0.1_windows-x64_bin-sdk\\javafx-sdk-27.0.1\\lib\" --add-modules javafx.controls"
     }
   ]
 }
+
+
