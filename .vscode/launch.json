@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LabLauncher",
+      "request": "launch",
+      "mainClass": "LabLauncher",
+      "projectName": "cmp129-week12-lab01"
+    },
+    {
+      "type": "java",
       "name": "SumCalculator",
       "request": "launch",
       "mainClass": "SumCalculator",
